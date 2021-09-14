@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='index.css'/>
+    <title>form.png</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+            <div>
+               <h1> TO THE NEW </h1>
+            </div>
+            <div class="nav-option">
+                <a href='#'>Home</a>
+                <a href='#'>Quick Help</a>
+            </div>
+        </nav>
+
+        <div class="form-container">
+            <div class='form-bug'>Bug Report</div>
+           <form class="form">
+               <div class="field">
+                    <label>Title:*</label>
+                    <input type='text' required />
+                </div>
+                <div class="field">
+                <label>Description:*</label>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                </div>
+                <div class="field">
+                    <label>Operating System:</label>
+                    <select> 
+                        <option>Windows XP</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Product:*</label>
+                    <select>
+                        <option> Formoid</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Version:*</label>
+                    <input style="width: 150px;" type='text' />
+                </div>
+                <div  >
+                    <p style='padding:10px 0 5px'> License:*</p>
+                    <input type="radio"  />
+                    <label>Free</label>
+                    <input type='radio' />
+                    <label>Business</label>
+                </div>
+                <div class="field">
+                    <label >Severity:</label>
+                    <select>
+                        <option> Critical </option>
+                    </select>
+                    
+                </div>
+                <div class="field">
+                    <label>Attachments </label>
+                    <input type="file" id="attachments" name="attachments">
+                </div>
+           </form>
+           <div class="footer">
+            <button>Send</button>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
